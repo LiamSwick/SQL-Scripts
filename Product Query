@@ -1,0 +1,7 @@
+Select
+    p.product_name as product_name,
+    s.year as year,
+    s.price as price
+From Sales s
+Inner Join Product p
+ON s.product_id = p.product_id
